@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: white;
+}
+
+*{
+    margin: 0;
+}
+
+/*? Navbar */
+
+.icon{
+    width: 13%;
+    padding: 8px 0 0 30px;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+
+nav ul{
+    position: relative;
+    top: 15px;
+    right: 5%;
+    margin: 0;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0 30px 0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffd96f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: #aa841b;
+    text-decoration: none;
+}
+
+/*?End of Navbar*/
+/*! First section of introduction */
+
+.opening{
+    position: relative;
+    z-index: 0;
+    height: 640px;
+    overflow: hidden;
+    background: #fff;
+    color: black;
+}
+
+.myself{
+    position: relative;
+    z-index: 1;
+}
+
+#me{
+    width: 50%;
+    margin: 10% 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    bottom: 150px;
+}
+
+.intro{
+    position: absolute;
+    z-index: 2;
+    top: 110px;
+    left: 510px;
+    text-align: justify;
+    margin-right: 15%;
+}
+
+#targetbtn{
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    border-radius: 50px;
+    width: 15%;
+    height: 40px;
+}
+
+.divider{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+/*! End of introduction*/
+/*?Details about me*/
+
+.title{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.title h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+}
+
+.about{
+    font-family: 'Montserrat' sans-serif;
+}
+
+.about p{
+    text-align: center;
+}
+
+.image{
+    width: 25%;
+    margin: 2% 37%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #ffd96f;
+}
+
+/*?End of details*/
+/*!Contact*/
+.final{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#ig{
+    width: 9%;
+}
+
+#mail{
+    width: 6%;
+    margin-right: 2%;
+    margin-left: 11%;
+}
+
+#line{
+    width: 8.5%;
+    margin-left: 4.5%;
+}
+
+/*!End of contact*/
